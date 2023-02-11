@@ -1,0 +1,24 @@
+{
+  "name": "governance-mining",
+  "version": "1.0.0",
+  "description": "The script for verifying the result of governance mining (nodejs)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeeDAO-OpenSource/governance-mining.git"
+  },
+  "author": "SeeDAO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SeeDAO-OpenSource/governance-mining/issues"
+  },
+  "homepage": "https://github.com/SeeDAO-OpenSource/governance-mining#readme",
+  "dependencies": {
+    "csv-parse": "^5.3.5",
+    "dotenv": "^16.0.3"
+  }
+}
