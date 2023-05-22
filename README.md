@@ -1,8 +1,6 @@
 # 💰 Governance Mining
 The script for verify the result of governance mining (using nodejs)
 
-
-
 ## 统计信息
 
 ### Season 1
