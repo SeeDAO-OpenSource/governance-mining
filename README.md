@@ -1,6 +1,23 @@
 # 💰 Governance Mining
 The script for verify the result of governance mining (using nodejs)
 
+## 安装
+
+```bash
+npm install
+cp .env.example .env
+```
+
+并将 `.env` 中的 `FOLDER_SEASON` 填入当季目录名称 (Ex: season3)
+
+## 用法
+
+1. 建立当季目录, 例如 `season3` (Ex: 第四季节点大会, 要统计当季第三季治理挖矿)
+2. 将该季的节点大会投票(工作评估, 竞选投票, 门槛, 预算, 以及其他提案), 以及该季的P3提案的投票明细, 放入目录中
+    - 透过 [Metaforo](https://forum.seedao.xyz/) 投票右上角 Export 下载
+3. 执行 `npm run start`, 会看见目录下有 `Votes_seasonX_.....csv` 即为统计总票数
+4. 根据积分总额，计算每票治理挖矿激励后，乘以票数即可得所有人的治理挖矿积分激励，并更新在本 `README.md` 中
+
 ## 统计信息
 
 ### Season 1
